@@ -1,0 +1,159 @@
+.navigation{
+    padding-top: 8%;
+}
+
+.display-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.navbar-custom{
+    background-color: black;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.heading {
+    font-size: 13vw;
+    line-height: 1em;
+    font-weight: bolder;
+    animation-name: new-animation;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: 45;    
+}
+@keyframes new-animation {
+    from {
+        color: white;
+    }
+    to {
+        color: black;
+    }
+}
+
+.header {
+    margin-bottom: 2px;
+    position: fixed;
+    width: 100%;
+}   
+
+.black-container {
+    background-color: black;
+}
+
+.body-black {
+    display: flex;
+    color: white;
+    align-items: flex-end;  
+}
+
+.body-white {
+    display: flex;
+    margin-top: 120px;
+}
+
+.white-body-heading {
+    margin-top: 33px;
+    margin-bottom: 30px;
+    font-size: 5vw;
+    font-weight: bolder;
+}
+
+.stair-img {
+    margin : 60px;
+}
+
+.details {
+    margin-right: 40px;
+}
+
+.footer {
+    padding-top: 12%;
+    padding-bottom: 11%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-box {
+    background-color: black;
+    color: white;
+    width: 80%;
+    height: 50px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.service{
+padding-top: 7%;
+}
+
+.sub-service-main{
+    display: flex;
+    padding-bottom: 15%;
+    padding-left: 3%;
+}
+.sub-services{
+    border: 1px solid #010000;
+    padding-left: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    transition: background-color 0.3s;
+    transition: color 0.3s;
+}
+.heading-service{
+    font-size: 5vw ;
+    font-weight: bolder;
+    padding-left: 5%;
+}
+.sub-service-heading{
+    font-size: 3vw;
+    font-weight:600;
+}
+
+.sub-services:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .heading-contact{
+    font-size: 5vw ;
+    font-weight: bolder;
+    padding-left: 5%;
+  }
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 785px) {
+    .body-white , .body-black {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* .body-black {
+        display: flex;
+        flex-direction: column;
+    } */
+  }
+  
